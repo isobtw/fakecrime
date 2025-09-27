@@ -1,12 +1,3 @@
-html, body, .markdown, .markdown * {
-  font-family: 'Inter', 'Inter Fallback', system-ui, sans-serif !important;
-}
-
-code, pre, .code, .code * {
-  font-family: 'JetBrains Mono', 'JetBrains Mono Fallback', monospace !important;
-}
-
-
 * {
   scrollbar-width: none;
   -ms-overflow-style: none;
@@ -25,18 +16,91 @@ html::-webkit-scrollbar, body::-webkit-scrollbar {
   display: none;
 }
 
-[role="tab"]:not([aria-selected="true"]) img,
-.tab:not(.active) img,
-.tab-button:not(.tab-button-active) img {
+@media (min-width: 1024px) {
+  .lg\:pl-12 {
+    padding-left: 0 !important;
+  }
+}
+
+.lg\:pl-12.flex.gap-x-12.justify-center.mx-auto.w-full {
+  gap: 0 !important;
+  justify-content: flex-start !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+
+@media (min-width: 1280px) {
+  #content-side-layout {
+    position: sticky !important;
+    top: 0 !important;
+    align-self: flex-start !important;
+  }
+  
+  #table-of-contents-layout {
+    position: sticky !important;
+    top: 0 !important;
+  }
+}
+
+#footer {
+  padding-top: 0rem !important;
+  padding-bottom: 0rem !important;
+}
+
+@media (min-width: 768px) {
+  #content-area {
+    max-width: 48rem !important;
+  }
+}
+
+@media (min-width: 1024px) {
+  #content-area {
+    max-width: 56rem !important;
+  }
+}
+
+@media (min-width: 1280px) {
+  #content-area {
+    max-width: 64rem !important;
+  }
+}
+
+@media (min-width: 1536px) {
+  .\32xl\:max-w-2xl {
+    max-width: 64rem !important;
+  }
+  
+  #content-area {
+    max-width: 72rem !important;
+  }
+}
+
+[role="tab"]:not([aria-selected="true"]) img {
   filter: none !important;
   opacity: 0.7 !important;
   background: transparent !important;
   mix-blend-mode: normal !important;
 }
 
-[role="tab"] img,
+[role="tab"] img {
+  background: transparent !important;
+}
+
+.tab:not(.active) img {
+  filter: none !important;
+  opacity: 0.7 !important;
+  background: transparent !important;
+}
+
+.tab-button:not(.tab-button-active) img {
+  filter: none !important;
+  opacity: 0.7 !important;
+  background: transparent !important;
+}
+
 img[src*=".png"] {
   background: transparent !important;
+  mix-blend-mode: normal !important;
 }
 
 .mobile-only {
@@ -106,7 +170,10 @@ details[open] > div {
   padding-left: 12px;
 }
 
-details:hover summary,
+details:hover summary {
+  color: #F97316;
+}
+
 details[open] summary {
   color: #F97316;
 }
