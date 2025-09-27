@@ -142,11 +142,11 @@ details[open]::before {
 }
 
 details:hover {
-  box-shadow: -3px 0 15px rgba(255, 105, 180, 0.12);
+  box-shadow: -3px 0 15px rgba(255, 137, 107, 0.12);
 }
 
 details[open] {
-  box-shadow: -4px 0 20px rgba(255, 20, 147, 0.18);
+  box-shadow: -4px 0 20px rgba(255, 126, 20, 0.18);
 }
 
 details summary,
