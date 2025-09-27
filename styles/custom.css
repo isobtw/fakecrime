@@ -177,36 +177,3 @@ details:hover summary {
 details[open] summary {
   color: #F97316;
 }
-
-
-/* --------------------------
-   FONTS: INTER + JETBRAINS MONO
-   -------------------------- */
-
-/* @font-face von Mintlify (Inter Variable) */
-@font-face {
-    font-family: Inter;
-    font-style: normal;
-    font-weight: 100 900;
-    font-display: block;
-    src: url(/mintlify-assets/_next/static/media/ba9851c3c22cd980-s.woff2) format("woff2");
-}
-/* ... alle anderen Inter @font-face definitions kopieren wie auf Mintlify ... */
-
-/* @font-face JetBrains Mono */
-@font-face {
-    font-family: JetBrains Mono;
-    font-style: normal;
-    font-weight: 100 800;
-    font-display: swap;
-    src: url(/mintlify-assets/_next/static/media/886030b0b59bc5a7-s.woff2) format("woff2");
-}
-/* ... alle anderen JetBrains Mono @font-face definitions kopieren ... */
-
-html, body, .markdown, .markdown *, .content, .page-content, .docs {
-  font-family: 'Inter', 'Inter Fallback', system-ui, sans-serif !important;
-}
-
-code, pre, .code, .code * {
-  font-family: 'JetBrains Mono', 'JetBrains Mono Fallback', monospace !important;
-}
