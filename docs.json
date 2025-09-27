@@ -100,19 +100,18 @@
     "links": [
       {
         "label": "Home",
-        "href": "https://haunt.gg"
+        "href": "https://fakecrime.bio"
       }
     ],
     "primary": {
       "type": "button",
       "label": "Dashboard",
-      "href": "https://haunt.gg/dashboard"
+      "href": "https://fakecrime.bio/dashboard"
     }
   },
   "footer": {
     "socials": {
-      "discord": "https://discord.gg/hauntbio",
-      "github": "https://github.com/curet-dev/docs"
+      "discord": "https://discord.gg/fakecrime"
     }
   }
 }
