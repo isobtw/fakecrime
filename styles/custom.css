@@ -127,7 +127,7 @@ details::before {
   top: 0;
   bottom: 0;
   width: 0;
-  background: linear-gradient(135deg, #ff896b, #ff7214, #ff896b);
+  background: linear-gradient(135deg, #F97316, #F97316, #F97316);
   transition: width 0.3s ease;
   z-index: 1;
 }
@@ -138,15 +138,15 @@ details:hover::before {
 
 details[open]::before {
   width: 4px;
-  background: linear-gradient(135deg, #ff896b, #ff7214, #ff896b);
+  background: linear-gradient(135deg, #F97316, #F97316, #F97316);
 }
 
 details:hover {
-  box-shadow: -3px 0 15px rgba(255, 137, 107, 0.12);
+  box-shadow: -3px 0 15px rgba(249, 115, 22, 0.18);
 }
 
 details[open] {
-  box-shadow: -4px 0 20px rgba(255, 126, 20, 0.18);
+  box-shadow: -4px 0 20px rgba(249, 115, 22, 0.18);
 }
 
 details summary,
@@ -171,9 +171,9 @@ details[open] > div {
 }
 
 details:hover summary {
-  color: #ff976b;
+  color: #F97316;
 }
 
 details[open] summary {
-  color: #ff6714;
+  color: #F97316;
 }
