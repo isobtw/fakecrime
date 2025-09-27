@@ -3,9 +3,9 @@
   "theme": "almond",
   "name": "fakecrime.bio Documentation",
   "colors": {
-    "primary": "#F27DB3",
-    "light": "#F38ABA",
-    "dark": "#D970A1"
+    "primary": "#f5815b",
+    "light": "#f3a48a",
+    "dark": "#d66f4d"
   },
   "favicon": "/logo/favicon.png",
   "navigation": {
