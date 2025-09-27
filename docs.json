@@ -4,8 +4,8 @@
   "name": "fakecrime.bio Documentation",
   "colors": {
     "primary": "#F97316",
-    "light": "#f3a48a",
-    "dark": "#d1702e"
+    "light": "#F97316",
+    "dark": "#F97316"
   },
   "favicon": "/logo/favicon.png",
   "navigation": {
