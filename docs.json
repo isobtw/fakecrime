@@ -1,0 +1,118 @@
+{
+  "$schema": "https://mintlify.com/docs.json",
+  "theme": "almond",
+  "name": "Haunt.gg Documentation",
+  "colors": {
+    "primary": "#F27DB3",
+    "light": "#F38ABA",
+    "dark": "#D970A1"
+  },
+  "favicon": "/logo/favicon.png",
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "Guides",
+        "groups": [
+          {
+            "group": "Overview",
+            "pages": [
+              "overview/introduction",
+              "overview/changelog",
+              "overview/faq"
+            ]
+          },
+          {
+            "group": "Customization",
+            "pages": [
+              "customization/assets",
+              "customization/badges",
+              "customization/customization",
+              "customization/decoration",
+              "customization/links",
+              "customization/templates",
+              "customization/themes"
+            ]
+          },
+          {
+            "group": "Guides",
+            "pages": [
+              "guides/applications",
+              "guides/discord",
+              "guides/premium",
+              "guides/security",
+              "guides/domain",
+              "guides/verification",
+              "guides/affiliate",
+              "guides/imagehost",
+              "guides/multiaccounting",
+              "guides/account-deletion"
+            ]
+          },
+          {
+            "group": "Troubleshooting",
+            "pages": [
+              "troubleshooting/assets",
+              "troubleshooting/discord",
+              "troubleshooting/login"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "API Endpoints",
+        "groups": [
+          {
+            "group": "Overview",
+            "pages": [
+              "endpoint/introduction"
+            ]
+          },
+          {
+            "group": "Lookup Endpoints",
+            "pages": [
+              "endpoint/lookup/username",
+              "endpoint/lookup/uid"
+            ]
+          },
+          {
+            "group": "Leaderboard Endpoints",
+            "pages": [
+              "endpoint/leaderboard/views",
+              "endpoint/leaderboard/badges",
+              "endpoint/leaderboard/uid"
+            ]
+          },
+          {
+            "group": "ImageHost Endpoints",
+            "pages": [
+              "endpoint/imagehost/upload"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "logo": {
+    "light": "/logo/light.png",
+    "dark": "/logo/dark.png"
+  },
+  "navbar": {
+    "links": [
+      {
+        "label": "Home",
+        "href": "https://haunt.gg"
+      }
+    ],
+    "primary": {
+      "type": "button",
+      "label": "Dashboard",
+      "href": "https://haunt.gg/dashboard"
+    }
+  },
+  "footer": {
+    "socials": {
+      "discord": "https://discord.gg/hauntbio",
+      "github": "https://github.com/curet-dev/docs"
+    }
+  }
+}
